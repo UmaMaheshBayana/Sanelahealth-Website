@@ -1,0 +1,143 @@
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+                      http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+  version="3.1">
+
+
+<welcome-file-list>
+   <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+    <servlet-name>team</servlet-name>
+    <jsp-file>/team.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>team</servlet-name>
+    <url-pattern>/team</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>virtualcare</servlet-name>
+    <jsp-file>/virtualcare.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>virtualcare</servlet-name>
+    <url-pattern>/virtualcare</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>covid</servlet-name>
+    <jsp-file>/covid.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>covid</servlet-name>
+    <url-pattern>/covid</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>women</servlet-name>
+    <jsp-file>/womenshealth.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>women</servlet-name>
+    <url-pattern>/women</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>nursing</servlet-name>
+    <jsp-file>/nursing.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>nursing</servlet-name>
+    <url-pattern>/nursing</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+    <servlet-name>diabetes</servlet-name>
+    <jsp-file>/diabetescare.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>diabetes</servlet-name>
+    <url-pattern>/diabetes</url-pattern>
+  </servlet-mapping>
+  
+  
+  <servlet>
+    <servlet-name>elderly</servlet-name>
+    <jsp-file>/elderlyhealth.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>elderly</servlet-name>
+    <url-pattern>/elderly</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>ht</servlet-name>
+    <jsp-file>/hypertensioncare.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>ht</servlet-name>
+    <url-pattern>/ht</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>counseling</servlet-name>
+    <jsp-file>/counseling.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>counseling</servlet-name>
+    <url-pattern>/counseling</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>terms</servlet-name>
+    <jsp-file>/terms.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>terms</servlet-name>
+    <url-pattern>/terms</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+    <servlet-name>privacy</servlet-name>
+    <jsp-file>/privacy.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>privacy</servlet-name>
+    <url-pattern>/privacy</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>careers</servlet-name>
+    <jsp-file>/career.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>careers</servlet-name>
+    <url-pattern>/careers</url-pattern>
+  </servlet-mapping>
+  
+      <servlet>
+    <servlet-name>contact</servlet-name>
+    <jsp-file>/contact.html</jsp-file>
+  </servlet>
+  
+  <servlet-mapping>
+    <servlet-name>contact</servlet-name>
+    <url-pattern>/contact</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

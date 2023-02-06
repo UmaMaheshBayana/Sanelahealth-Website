@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+.menu {
+ font-size: 14px;
+}
+
+.submenu {
+  font-weight : 600;
+}
+
+.info-block .thumbnail .caption p {
+    color: #000000;
+}
+
+body {
+	color:#000000;
+}
+
+.navbar-default .navbar-nav>li>a {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.dropdown-menu>li>a {
+    font-weight: 600;
+}
